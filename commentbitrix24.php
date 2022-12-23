@@ -14,7 +14,7 @@ function OnSaleComponentHandler(Main\Event $event)
 	$order = $event->getParameter("ENTITY");
 	$commentbitrix24 = "";
 
-	// Получаем адресс для записи в комментарий заказа
+	// Получаем адрес для записи в комментарий заказа
 	$propertyCollection = $order->getPropertyCollection();
 	
 	$propertys = $propertyCollection->getArray();
